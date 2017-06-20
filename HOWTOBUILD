@@ -1,0 +1,16 @@
+How to build libwavelet ?
+
+    Welcome to read this file, and you are must be want to know how to
+   build this library, and I will help you.
+
+Preparations
+
+    You must need installed, or POSIX similar system as like Linux or 
+   MacOS-X with bash. If you are Windows, install M-SYS and MinGW-W64, or 
+   MinGW bundle compile environment.
+    And latest version of FFTW3 source code, and it must be configured and
+   built & installed to your system by 'make install'.
+
+And ?
+
+    Just type 'make'. It will done for all when it has no problem. Makefile will makes 'out' directory and copies libwavelet.a and wavelet2s.h file.
